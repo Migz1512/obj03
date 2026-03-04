@@ -9,9 +9,10 @@ class Cone{
         
     }
     calcularAreaL(){
-        return math.PI * this.raio * this.geratriz
+        return Math.PI * this.raio * this.geratriz
     }
     calcularAreaBase(){
-        return math.PI * this.raio * this.raio
+        return Math.PI * this.raio * this.raio
     }
 }
+module.exports = Cone

@@ -4,16 +4,16 @@ class Cilindro{
         this.altura = altura
     }
 
-    calcularVolumeCil(){
+    calcularVolCil(){
     return Math.PI * this.raio * this.raio * this.altura
     }
 
     calcularAreaBase(){
-        return math.PI * this.raio * this.raio
+        return Math.PI * this.raio * this.raio
     }
 
     calcularAreaL(){
-        return 2 * math.PI * this.raio * this.altura
+        return 2 * Math.PI * this.raio * this.altura
     }
 }
-
+module.exports = Cilindro
