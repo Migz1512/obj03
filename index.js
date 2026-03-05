@@ -31,9 +31,10 @@ do{
     }else if(op === 2){
 
         let raio = Number(rl.question('qual o valor do raio'))
-        let cone = new Cone(raio)
+
         let altura = Number(rl.question('qual o valor da altura'))
-        cone = new Cone(altura)
+        
+        cone = new Cone(altura, raio)
         let volume = cone.calcularVolumeCon()
         let areaLateral = cone.calcularAreaL()
         let areaBase = cone.calcularAreaBase()
