@@ -29,7 +29,7 @@ do{
     console.log(`A base de um cilíndro de raio ${raio} e altura ${altura} é ${base.toFixed(3)}cm²`)
     console.log(`A área lateral de um cilíndro de raio ${raio} e altura ${altura} é ${areaLateral.toFixed(3)}cm²`)
     }else if(op === 2){
-        console.log('Cone')
+
         let raio = Number(rl.question('qual o valor do raio'))
         let cone = new Cone(raio)
         let altura = Number(rl.question('qual o valor da altura'))
@@ -54,7 +54,7 @@ do{
         console.log(`O volume do cubo de aresta ${aresta} é ${volume}cm²`)
 
     }else{
-        console.lof(' Opção Inválida! Digite Novamente!')
+        console.log(' Opção Inválida! Digite Novamente!')
     }
 
     
